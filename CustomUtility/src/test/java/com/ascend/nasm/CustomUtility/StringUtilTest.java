@@ -25,7 +25,7 @@ public class StringUtilTest {
 	
 	@Test
 	public void testGetSubString() {
-		String val = util.getSubString(7, value);
+		String val = util.getSubString(10, value);
 		assertEquals("Learning LLC.", val);
 	}	
 }
